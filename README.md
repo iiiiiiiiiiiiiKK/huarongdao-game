@@ -1,6 +1,8 @@
 🎮 超级华容道 (Super Huarong Road) - AI 智能求解版
+
 这是一个基于 HTML5/CSS3/JavaScript 开发的单文件网页版“超级华容道”游戏。完美复刻了实体电子游戏机的外观与手感，内置了 AI 智能求解器，支持 500+ 关卡逻辑。
 (建议在此处替换为你的游戏截图)
+
 ✨ 主要功能 (Features)
 • 🧠 AI 智能提示 (BFS Solver)
 * 内置广度优先搜索 (BFS) 算法。
@@ -21,14 +23,18 @@
 • 🔊 沉浸式音效
 * 使用 Web Audio API 实时合成音效（无需加载外部 mp3 文件）。
 * 包含：滑动摩擦声、胜利提示音。
+
 • 🚀 极简部署
 * 单文件架构：所有代码（HTML/CSS/JS）集成在一个 index.html 文件中。
 * 无任何外部依赖，无需安装 Node.js 或数据库。
+
 🚀 快速开始 (Quick Start)
+
 本地运行
 1. 下载本项目中的 .html 文件（建议重命名为 index.html）。
 2. 直接双击文件，使用浏览器（Chrome/Edge/Safari）打开即可开始游戏。
 部署到线上 (免费)
+
 你可以通过以下方式将游戏分享给朋友（无需服务器）：
 方法一：Netlify Drop (最简单)
 1. 将 index.html 放入一个文件夹（例如命名为 my-game）。
@@ -39,6 +45,7 @@
 1. 将代码上传至 GitHub 仓库。
 2. 在仓库设置 (Settings) -> Pages 中，选择 main (或 master) 分支并保存。
 3. 几分钟后即可通过 https://你的用户名.github.io/仓库名/ 访问。
+
 🎮 玩法说明 (How to Play)
 1. 目标：通过移动各个棋子，帮助红色的 KK (曹操) 方块从底部的出口逃脱。
 2. 操作：
@@ -46,6 +53,7 @@
 • 重置：点击红色按钮重新开始当前关卡。
 • 上一关/下一关：切换关卡。
 • 提示：卡关时，点击黄色的“提示”按钮，AI 会帮你走一步。
+
 🛠️ 技术栈 (Tech Stack)
 • HTML5: 语义化标签构建结构。
 • CSS3: Flexbox/Grid 布局，CSS Variables，Gradient 渐变实现拟物风格。
@@ -54,6 +62,7 @@
 • BFS 路径搜索算法 (AI Solver)。
 • Web Audio API 音效合成。
 • TailwindCSS (CDN): 辅助样式快速开发。
+
 📄 许可证 (License)
 MIT License. 欢迎学习与修改。
 # huarongdao-game
