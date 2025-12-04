@@ -78,5 +78,3 @@
 
 📄 许可证 (License)
 MIT License. 欢迎学习与修改。
-
-# huarongdao-game
